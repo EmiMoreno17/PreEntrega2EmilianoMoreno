@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <link rel="shortcut icon" href="../images/favicom.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Serif&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="../estilos/css/styles.css">
+</head>
+<body>
+    <header class="header header--gradiente">
+        <div class="header__div">
+            <a href="../index.html"><img class="header__logo bounce-in-top" src="../images/logo.png" alt="Logo de la Empresa"></a>
+        </div>  
+        <div>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a class="header__anchor" href="../pages/proyecto.html">PROYECTOS</a></li>
+                    <li class="header__item"><a class="header__anchor" href="../pages/nosotros.html">NOSOTROS</a></li>
+                    <li class="header__item"><a class="header__anchor" href="../pages/propuesta_informativa.html">PROPUESTA</a></li>
+                    <li class="header__item"><a class="header__anchor" href="../pages/contactos.html">CONTACTO</a></li>
+                  </ul>
+            </nav>
+        </div>     
+    </header>
+    <main>
+        <section class="contacto">
+            <div class="contacto__izquierdo"  data-aos="fade-right">
+                <h3>Escribinos y ponte en</h3>
+                <h1>Contacto</h1>
+                <p>Puedes contactarnosa traves de cualquiera de nustras redes sociales indicados sobre algun producto.</p>
+                <div>
+                    <a target="_blank" href="https://www.facebook.com/rusticos.industriales.9"><img src="../images/logo face.png" alt="icono imagen facebook"></a>
+                    <a target="_blank" href="https://www.instagram.com/rusticosindustriales/"><img src="../images/logo instagram.png" alt="icono imagen instagram"></a>
+                </div>
+            </div>
+            <div class="contacto__derecho" data-aos="fade-left">
+                <form class="formulario">
+                    <input class="inputTextos" type="text" id="nombre" placeholder="Tu nombre">
+                    <br>
+                    <input class="inputTextos" type="email" id="mail" placeholder="Ingresa tu mail">
+                    <br>
+                    <textarea id="comentarios" rows="7" placeholder="Escribe el mensaje..." class="area__contacto"></textarea>
+                    <br>
+                    <input type="submit" value="Enviar">
+                  </form>
+            </div>
+        </section>
+    </main>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
