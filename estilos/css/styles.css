@@ -293,6 +293,9 @@
 .section__nosotros {
     padding: 1rem;
 }
+.sectionnosotros__img {
+    height: 350px;
+}
 
 /*FINALIZA NOSOTROS*/
 
@@ -414,7 +417,6 @@ input[type="email"]{
     align-self: center;
     text-decoration: none;
     color: white;
-    padding: 5rem;
 }
 
 .footer__item, .footer__icono{
@@ -499,7 +501,8 @@ input[type="email"]{
         display: flex;
         flex-direction: column;
         margin-top: 1rem;
-        overflow: hidden;max-width: 100%;
+        overflow: hidden;
+        max-width: 96%;
     
     }
     .footer__izquierdo, .footer__centro, .footer__derecho {
@@ -570,6 +573,7 @@ input[type="email"]{
         flex-direction: column;
         align-content: center;
         flex-wrap: wrap;
+        height: 100%;
     }
     .header__div {
         height: 25vh;
@@ -719,7 +723,7 @@ input[type="email"]{
         padding: 1rem;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        height: 20vh;
+        height: 30vh;
         width: 100%;
     }
     .hero__info {
