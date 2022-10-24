@@ -225,7 +225,7 @@
 .info{
     display: flex;
     padding: 2rem;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
     align-items: baseline;
 }
