@@ -241,7 +241,6 @@
     height: 400px;
     width: 400px;
     overflow: hidden;
-    margin: 1rem;
 }
 
 
@@ -270,7 +269,8 @@
 .proyecto__pie {
     margin: 2rem;
     padding: 2rem;
-    background-color: darkcyan
+    background-color: darkcyan;
+    border-radius: 10px;
 }
 
 /*FINALIZA PROYECTO*/
@@ -346,6 +346,8 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 1rem; 
+    padding: 1rem;
+    border-radius: 10px;
 }
 
 /*FINALIZA PROPUESTA*/

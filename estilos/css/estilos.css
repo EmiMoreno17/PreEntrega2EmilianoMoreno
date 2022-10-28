@@ -1,0 +1,10 @@
+.hero {
+  background-color: black; }
+  .hero__wraper {
+    background-color: red; }
+
+.hero__titulo {
+  color: green; }
+
+.hero__slogan {
+  color: beige; }
