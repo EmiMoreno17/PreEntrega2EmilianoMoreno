@@ -1,0 +1,80 @@
+
+.footer{
+    background-color: #e1e7ed;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+    text-align: center;
+    align-content: stretch;
+    &__izquierdo{
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap
+    }
+    &__nav{
+            margin: 0rem;
+            text-align: center;
+            align-self: center;
+            text-decoration: none;
+            color: white;
+    }
+    &__list{
+        display: flex;
+        flex-direction: column;
+        padding: 0.3rem;
+    
+    }
+    &__item{
+        display: flex;
+        flex-direction: row;
+        padding: 0.3rem;
+    }
+    &__anchor{
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        font-size: 1.2rem;
+    }
+    &__centro{
+        padding: 1rem;
+    }
+    &__img{
+        width: 500px;
+    }
+    &__derecho{
+        padding: 1rem;
+    }
+    &__nav{
+        margin: 0rem;
+        text-align: center;
+        align-self: center;
+        text-decoration: none;
+    }
+    &__icono{
+        display: flex;
+        flex-direction: row;
+        padding: 0.3rem;
+    }
+    &__list{
+        display: flex;
+        flex-direction: column;
+        padding: 0.3rem;
+        align-items: center;
+    }
+    &__anchor{
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: rgb(80, 75, 75);
+        :hover{
+            color: #020e26;
+        }
+    }
+    &__titulo{
+        color: black;
+    }
+  
+}

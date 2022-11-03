@@ -1,0 +1,21 @@
+.info{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: baseline;
+}
+.infosection{
+    overflow: hidden;
+    display: inline-block;
+    overflow: hidden;
+    width: 27rem; 
+    &__img{
+        display: inline-block;
+        height: 400px;
+        width: 400px;
+        overflow: hidden;
+    }
+
+
+}

@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
+    <meta name="description" content="Trabajos artesanales en hierro y madera">
+    <meta name="keywords" content="rusticos, industriales, calidad, diseños propios">
+    <title>Inicio</title>
     <link rel="shortcut icon" href="./images/favicom.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,17 +18,33 @@
 </head>
 <body> 
     <header class="header header--gradiente">
-        <a href="#" ><img src="./images/logo.png" alt="LOGO DE LA EMPRESA" class="header__logo bounce-in-top"></a>
-        <nav class="header__nav">
-            <ul class="header__list">
-                <li class="header__item"><a class="header__anchor" href="./pages/proyecto.html">PROYECTOS</a></li>
-                <li class="header__item"><a class="header__anchor" href="./pages/nosotros.html">NOSOTROS</a></li>
-                <li class="header__item"><a class="header__anchor" href="./pages/propuesta_informativa.html">PROPUESTA</a></li>
-                <li class="header__item"><a class="header__anchor" href="./pages/contactos.html">CONTACTO</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg header__nav">
+            <div class="container-fluid">
+                <a href="#" ><img src="./images/logo.png" alt="Logo Rusticos" class="header__logo bounce-in-top"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link header__anchor" aria-current="page" href="./pages/proyecto.html">PROYECTOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link header__anchor" href="./pages/nosotros.html">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link header__anchor"  href="./pages/propuesta_informativa.html">PROPUESTA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link header__anchor"  href="./pages/contactos.html">CONTACTO</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
-    <main id="hero__padre">
+    <main>
         <section class="hero">
             <div class="hero__wraper">
                 <h1 class="hero__titulo">BIENVENIDOS A RUSTICOS INDUSTRIALES</h1>
@@ -34,23 +52,23 @@
             </div>
             <div class="hero__info">
                 <h1 class="hero__titulo">TRBAJOS DE PRIMERA CLAIDAD</h1>
-                <p class="hero__slogan">Trabajos en hierro y madera</p>
+                <p class="hero__slogan">Calidad que nos representa</p>
             </div>
             <div class="hero__info">
-                <h1>SATISFACCION GARANTIZADA</h1>
-                <p class="hero__slogan">Trabajos en hierro y madera</p> 
+                <h1 class="hero__titulo">SATISFACCION GARANTIZADA</h1>
+                <p class="hero__slogan">Nuestros clientes nos avalan</p> 
             </div>
         </section>
         <section class="info">
             <div class="infosection" data-aos="fade-right">
-                <img class="infosection__img" src="./images/imagen.jpg" alt="">
-                <h2 class="infosection__titulo">info1</h2>
+                <img class="infosection__img" src="./images/imagen.jpg" alt=" imagenes presentacion">
+                <h2 class="infosection__titulo">CONOZCANOS</h2>
                 <p class="infosection__desc">Te invitamos a conocer nuestra historia, enfocada en la pasión or el diseño y la fabricación con materiales de prmera claidad.</p>
                 <a class="btn" href="./pages/nosotros.html">NOSOTROS</a>
             </div>
             <div class="infosection" data-aos="fade-right">
-                <img class="infosection__img" src="./images/imagen2.jpg" alt="">
-                <h2 class="infosection__titulo">info2</h2>
+                <img class="infosection__img" src="./images/imagen2.jpg" alt=" imagenes presentacion">
+                <h2 class="infosection__titulo">DELEITATE</h2>
                 <p class="infosection__desc">Te proponemos a que cumplas tus sueños de tener eso que tanto quisiste para tu hogar o empresa. Nosotros lo hacemos posible</p>
                 <a class="btn" href="./pages/propuesta_informativa.html">PROPUESTA</a>
             </div>
@@ -70,10 +88,10 @@
         </div>
         <div class="footer__centro">
             <h3 class="footer__titulo">MEDIOS DE PAGO</h3>
-            <img class="pagos__img" src="./images/mediosdepago.png" alt="medios de pago">
+            <img class="footer__img" src="./images/mediosdepago.png" alt="medios de pago">
         </div>
         <div class="footer__derecho">
-            <h3>REDES</h3>
+            <h3 class="footer__titulo">REDES</h3>
             <nav class="footer__nav">
                 <ul class="footer__list">
                     <li class="footer__icono"><a class="footer__anchor" href="https://www.facebook.com/rusticos.industriales.9"> <img src="./images/logo face.png" alt="icono imagen facebook"></a></li>

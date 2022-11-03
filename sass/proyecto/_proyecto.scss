@@ -1,0 +1,29 @@
+.proyecto{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+    padding-top: 1rem;
+    &__section{
+       text-align: center;
+       max-width: min-content;
+   }
+   &__img{
+       height: 300px;
+       width: 300px;
+       padding: 1rem;
+   }
+    &__pie {
+        margin: 1rem;
+        padding: 1rem;
+        background-color: darkcyan;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 42vw;
+    }
+   
+}

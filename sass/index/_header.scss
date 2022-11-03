@@ -1,0 +1,24 @@
+
+
+.header{
+    background-color: #e1e7ed;
+    &__logo{
+        height: 150px;
+        position: relative;
+        left: 5rem;
+    }
+    &__anchor{
+        font-size: 1.5rem;
+        :hover{
+            color: #020e26;
+        }
+    }
+    
+        
+}
+    .bounce-in-top {
+        -webkit-animation: bounce-in-top 1.1s both;
+                animation: bounce-in-top 1.1s both;
+    }
+
+    

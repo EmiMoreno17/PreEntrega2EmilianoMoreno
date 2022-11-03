@@ -1,0 +1,32 @@
+.hero{
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+    width: 100%;
+    &__wraper{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        background-color: chocolate;
+        justify-content: space-evenly;
+        border-radius: 10px;
+    }
+    &__slogan{
+        font-size: 1.5rem;
+    }
+    &__info{
+        background-color: rgb(22,98,166);
+        margin: 0 1.5rem;
+        text-align: center;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+        left: 20px;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,26 @@
+/*base*/
+@import "./base/resets";
+/* utilitarias*/
+@import "./utilitarias/utilitarias";
+/*variables*/
+@import "./utilitarias/variables";
+/*INDEX*/
+@import "./index/header";
+@import "./index/hero__padre";
+@import "./index/info";
+@import "./index/footer";
+/*PROYECTO*/
+@import "./proyecto/proyecto";
+/*NOSOTROS*/
+@import "./nosotros/nosotros";
+/*PROPUESTA*/
+@import "./propuesta/propuesta";
+/*CONTACTO*/
+@import "./contacto/contacto";
+/*MEDIA QUERIS*/
+@import "./mediaqueris/320";
+@import "./mediaqueris/480";
+@import "./mediaqueris/768";
+@import "./mediaqueris/1024";
+
+
