@@ -190,9 +190,10 @@ body {
   width: 27rem; }
   .infosection__img {
     display: inline-block;
-    height: 400px;
-    width: 400px;
-    overflow: hidden; }
+    height: 350px;
+    width: 350px;
+    overflow: hidden;
+    object-fit: cover; }
 
 .footer {
   background-color: #e1e7ed;
@@ -271,7 +272,7 @@ body {
   .proyecto__img {
     height: 300px;
     width: 300px;
-    padding: 1rem; }
+    margin: 1rem; }
   .proyecto__pie {
     margin: 1rem;
     padding: 1rem;
@@ -297,7 +298,8 @@ body {
     overflow: hidden;
     max-width: min-content; }
   .nosotros__img {
-    height: 350px; }
+    height: 350px;
+    object-fit: cover; }
 
 /*PROPUESTA*/
 .propuesta {
@@ -326,9 +328,10 @@ body {
     margin: 1rem;
     border-radius: 5px; }
   .propuesta__img {
-    height: 400px;
-    width: 400px;
-    max-width: 100%; }
+    height: 350px;
+    width: 350px;
+    max-width: 100%;
+    object-fit: cover; }
   .propuesta__pie {
     text-align: center;
     width: 500px;
