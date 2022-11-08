@@ -25,7 +25,6 @@
         display: flex;
         flex-direction: column;
         padding: 0.3rem;
-    
     }
     &__item{
         display: flex;
@@ -46,6 +45,7 @@
     }
     &__derecho{
         padding: 1rem;
+       
     }
     &__nav{
         margin: 0rem;
@@ -70,7 +70,7 @@
         font-size: 1.5rem;
         color: rgb(80, 75, 75);
         :hover{
-            color: #020e26;
+            color: rgb(250, 243, 243);
         }
     }
     &__titulo{

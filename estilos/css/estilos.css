@@ -16,7 +16,7 @@
     color: white; }
 
 a:hover {
-  color: #020e26; }
+  color: black; }
 
 .bounce-in-top {
   -webkit-animation: bounce-in-top 1.1s both;
@@ -139,9 +139,10 @@ body {
     position: relative;
     left: 5rem; }
   .header__anchor {
+    color: black;
     font-size: 1.5rem; }
     .header__anchor :hover {
-      color: #020e26; }
+      color: tomato; }
 
 .bounce-in-top {
   -webkit-animation: bounce-in-top 1.1s both;
@@ -189,11 +190,7 @@ body {
   overflow: hidden;
   width: 27rem; }
   .infosection__img {
-    display: inline-block;
-    height: 350px;
-    width: 350px;
-    overflow: hidden;
-    object-fit: cover; }
+    display: inline-block; }
 
 .footer {
   background-color: #e1e7ed;
@@ -254,7 +251,7 @@ body {
     font-size: 1.5rem;
     color: #504b4b; }
     .footer__anchor :hover {
-      color: #020e26; }
+      color: #faf3f3; }
   .footer__titulo {
     color: black; }
 
@@ -298,7 +295,7 @@ body {
     overflow: hidden;
     max-width: min-content; }
   .nosotros__img {
-    height: 350px;
+    height: 300px;
     object-fit: cover; }
 
 /*PROPUESTA*/
@@ -327,11 +324,6 @@ body {
     background-color: chocolate;
     margin: 1rem;
     border-radius: 5px; }
-  .propuesta__img {
-    height: 350px;
-    width: 350px;
-    max-width: 100%;
-    object-fit: cover; }
   .propuesta__pie {
     text-align: center;
     width: 500px;
