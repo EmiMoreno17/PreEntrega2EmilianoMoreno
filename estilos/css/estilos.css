@@ -249,7 +249,7 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 1.5rem;
-    color: #504b4b; }
+    color: black; }
     .footer__anchor :hover {
       color: #faf3f3; }
   .footer__titulo {
@@ -309,11 +309,8 @@ body {
     display: inline;
     text-align: center; }
   .propuesta__section {
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: space-between;
-    justify-content: center;
-    align-items: stretch;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     padding-top: 2rem; }
   .propuesta__div {
     padding: 2rem;
@@ -577,7 +574,8 @@ button:active {
       position: relative;
       left: 30px; }
     .header__anchor {
-      font-size: 1rem; }
+      font-size: 1.3rem;
+      text-align: center; }
   .hero {
     display: flex;
     flex-direction: column;
@@ -606,8 +604,9 @@ button:active {
     flex-direction: column;
     align-items: flex-start; }
     .infosection__img {
-      height: 350px;
-      width: 350px; }
+      height: 280px;
+      width: 100%;
+      object-fit: cover; }
   .footer {
     display: flex;
     flex-direction: column;
@@ -704,15 +703,18 @@ button:active {
       width: 250px; } }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-  .header__logo {
-    height: 130px;
-    position: relative;
-    left: 1px; }
-  .header__nav {
-    text-align: center;
-    margin-right: 1rem; }
-  .header__container {
-    width: 95%; }
+  .header {
+    overflow: hidden; }
+    .header__logo {
+      height: 130px;
+      position: relative;
+      left: 1px; }
+    .header__nav {
+      text-align: center;
+      overflow: hidden; }
+    .header__container {
+      width: 100%;
+      overflow: hidden; }
   .hero {
     padding: 1rem;
     display: grid;
@@ -783,10 +785,7 @@ button:active {
     flex-direction: column;
     flex-wrap: nowrap; }
     .nosotros__div {
-      padding: 2rem;
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-gap: 10px; }
+      padding: 2rem; }
     .nosotros__section {
       padding: 1rem;
       display: flex;
@@ -829,7 +828,7 @@ button:active {
     align-items: start;
     margin-top: 1rem;
     justify-items: center;
-    padding-right: 3rem; } }
+    padding-right: 6rem; } }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .info {

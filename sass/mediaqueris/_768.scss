@@ -1,5 +1,6 @@
 @media only screen and (min-width: 481px) and (max-width: 768px){
     .header{
+        overflow: hidden;
         &__logo {
             height: 130px;
             position: relative;
@@ -7,10 +8,12 @@
         }
         &__nav {
             text-align: center;
-            margin-right: 1rem;
+            
+            overflow: hidden;
         }
         &__container {
-            width: 95%;
+            width: 100%;
+            overflow: hidden;
         }
     }
     .hero{
@@ -97,9 +100,7 @@
         flex-wrap: nowrap;
         &__div{
             padding: 2rem;
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-gap: 10px;
+            
         }
         &__section{
             padding: 1rem;
@@ -153,6 +154,6 @@
         align-items: start;
         margin-top: 1rem;
         justify-items: center;
-        padding-right: 3rem;
+        padding-right: 6rem;
     }
 }

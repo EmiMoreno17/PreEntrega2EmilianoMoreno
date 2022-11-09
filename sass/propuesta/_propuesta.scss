@@ -9,11 +9,8 @@
         text-align: center;
     }
     &__section {
-        display: flex;
-        flex-wrap: nowrap;
-        align-content: space-between;
-        justify-content: center;
-        align-items: stretch;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         padding-top: 2rem; 
     }
     &__div {
